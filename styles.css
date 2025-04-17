@@ -41,12 +41,13 @@ nav ul li a:hover {
   color: #007f3f;
 }
 
-/* Logo */
 #logo {
   width: 180px;
-  height: auto;
-  display: block;
-  margin-bottom: 20px;
+  transition: width 0.3s ease;
+}
+
+#navbar.scrolled #logo {
+  width: 120px;
 }
 
 /* Hero Image Full Width */
