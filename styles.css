@@ -181,12 +181,10 @@ footer {
     padding: 10px 20px;
   }
 
-  #navbar ul {
-    flex-direction: column;
-    gap: 10px;
-    padding: 0;
-    margin: 10px 0 0;
-  }
+  #navbar ul li a {
+  font-size: 1rem;
+  padding: 5px 0;
+}
 
   .hero-overlay {
     padding: 20px;
