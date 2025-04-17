@@ -49,10 +49,8 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-/* Hero Section */
+/* Hero Image Full Width */
 .hero {
-  width: 100%;
-  overflow: hidden;
   margin-bottom: 40px;
 }
 
@@ -60,6 +58,7 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 0;
 }
 
 .hero p {
