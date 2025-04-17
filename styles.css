@@ -193,6 +193,7 @@ footer {
     bottom: -30px;
     transform: translateY(15px); /* optional for mobile */
     max-width: 95%;
+    z-index: 2;
   }
 
   section h2 {
