@@ -194,6 +194,8 @@ footer {
     transform: translateY(15px); /* optional for mobile */
     max-width: 95%;
     z-index: 2;
+    animation: fadeRise 1.2s ease-out forwards;
+animation-delay: 0.3s;
   }
 
   section h2 {
