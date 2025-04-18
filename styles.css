@@ -343,3 +343,10 @@ body::before {
   z-index: 0;
   pointer-events: none;
 }
+.main-heading {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 40px;
+}
