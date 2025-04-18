@@ -267,15 +267,6 @@ section p {
   flex-wrap: wrap;
 }
 
-.three-column .column {
-  flex: 1;
-  min-width: 280px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
 /* About Us - Three Column Layout */
 .intro-section {
   text-align: center;
