@@ -258,6 +258,23 @@ section p {
     margin: 10px 0 0;
   }
 }
+/* About Page Three Column Layout */
+.three-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.three-column .column {
+  flex: 1;
+  min-width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
 
 /* About Us - Three Column Layout */
 .intro-section {
@@ -285,10 +302,11 @@ section p {
   flex-wrap: wrap;
   background-color: white;
 }
-
 .column {
   flex: 1;
   min-width: 280px;
   font-size: 1rem;
   line-height: 1.6;
 }
+
+
