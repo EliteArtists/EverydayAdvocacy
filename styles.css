@@ -305,11 +305,11 @@ section p {
   text-align: center;
 }
 body {
-    background: linear-gradient(
+  background: linear-gradient(
     145deg,
-    #f2f4f6 0%,
-    #e1effd 35%,
-    #ede6f7 75%,
+    #dbe9ff 0%,
+    #e6e6ff 30%,
+    #f0ddff 65%,
     #ffffff 100%
   );
   background-attachment: fixed;
