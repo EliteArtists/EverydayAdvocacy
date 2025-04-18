@@ -313,7 +313,7 @@ body {
     #ffffff
   );
   background-size: 400% 400%;
-  animation: shimmerGradient 40s ease infinite;
+  animation: shimmerGradient 20s ease-in-out infinite;
 }
 @keyframes shimmerGradient {
   0% {
