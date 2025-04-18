@@ -309,12 +309,12 @@ section p {
 body {
   background: linear-gradient(
     145deg,
-    #8B2E2E, 15%,     /* deep maroon */
-    #F3B28C, 10%,    /* rich brown-red */
-    #F5E1C6, 50%,    /* charcoal black */
-    #FFFFFF 15%     /* pure black */
+    #f5ebdc 0%,     /* light cream */
+    #fbe7d1 80%,    /* soft peach */
+    #fdf6f0 40%,    /* gentle beige highlight */
+    #ffffff 100%    /* white */
   );
-background-size: 600% 600%;
+  background-size: 600% 600%;
   animation: shimmerGradient 20s ease-in-out infinite;
 }
 @keyframes shimmerGradient {
