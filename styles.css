@@ -309,10 +309,10 @@ section p {
 body {
   background: linear-gradient(
     145deg,
-    #fddede,100%           /* deeper, earthier tone if you want more warmth */
-    #f7f2eb 30%,          /* lip/blush tone */
-    #e7f0f9 65%,      /* soft sky tint */
-    #ffffff 15%      /* bright clean white */
+    #330000, 0%,     /* deep maroon */
+    #4b1d1d, 40%,    /* rich brown-red */
+    #1a1a1a, 80%,    /* charcoal black */
+    #000000 100%     /* pure black */
   );
 background-size: 600% 600%;
   animation: shimmerGradient 20s ease-in-out infinite;
