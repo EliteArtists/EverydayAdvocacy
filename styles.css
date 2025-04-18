@@ -328,3 +328,7 @@ background-size: 600% 600%;
     background-position: 0% 50%;
   }
 }
+.column:last-child {
+  border-right: none;
+  padding-right: 0;
+}
