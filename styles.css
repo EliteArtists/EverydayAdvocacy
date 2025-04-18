@@ -307,13 +307,22 @@ section p {
 body {
   background: linear-gradient(
     145deg,
-    #dbe9ff 0%,
-    #e6e6ff 30%,
-    #f0ddff 65%,
-    #ffffff 100%
+    #dbe9ff,
+    #e6e6ff,
+    #fddfff,
+    #ffffff
   );
-  background-attachment: fixed;
-  backdrop-filter: blur(10px) saturate(150%);
-  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  background-size: 400% 400%;
+  animation: shimmerGradient 40s ease infinite;
 }
-
+@keyframes shimmerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
