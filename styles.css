@@ -306,13 +306,15 @@ section p {
 }
 body {
   background: linear-gradient(
-    145deg,
-    #dbe9ff,
-    #e6e6ff,
-    #fddfff,
-    #ffffff
-  );
-  background-size: 400% 400%;
+  145deg,
+  #dbe9ff,
+  #e6e6ff,
+  #fddfff,
+  #e6f6ff,
+  #f9e6ff,
+  #ffffff
+);
+background-size: 600% 600%;
   animation: shimmerGradient 20s ease-in-out infinite;
 }
 @keyframes shimmerGradient {
