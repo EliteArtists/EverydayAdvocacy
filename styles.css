@@ -350,6 +350,12 @@ body::before {
   color: #121212;
   margin-bottom: 40px;
 }
+.services-section h2.main-heading {
+  text-align: left;
+  color: #1d1f38; /* deep navy for visibility */
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
 .services-section {
   background-color: #ffffff;
   margin: 80px auto;
