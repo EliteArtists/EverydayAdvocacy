@@ -300,5 +300,7 @@ section p {
   line-height: 1.6;
   text-align: center;
 }
-
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+}
 
