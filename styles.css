@@ -308,7 +308,7 @@ body {
   background: linear-gradient(
     145deg,
     #fddede,           /* deeper, earthier tone if you want more warmth */
-    #f7f2eb,          /* lip/blush tone */
+    #f7f2eb 30%,          /* lip/blush tone */
     #e7f0f9 65%,      /* soft sky tint */
     #ffffff 100%      /* bright clean white */
   );
