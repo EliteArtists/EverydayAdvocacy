@@ -303,7 +303,14 @@ section p {
   text-align: center;
 }
 body {
-  background: linear-gradient(145deg, rgba(245, 250, 255, 0.75), rgba(235, 240, 245, 0.95));
+  background: linear-gradient(
+    145deg,
+    #f4f7fa 0%,
+    #e0ecff 25%,
+    #e8d7f1 60%,
+    #ffffff 100%
+  );
+  background-attachment: fixed;
   backdrop-filter: blur(10px) saturate(150%);
   -webkit-backdrop-filter: blur(10px) saturate(150%);
 }
