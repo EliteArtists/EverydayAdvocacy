@@ -306,14 +306,12 @@ section p {
 }
 body {
   background: linear-gradient(
-  145deg,
-  #dbe9ff,
-  #e6e6ff,
-  #fddfff,
-  #e6f6ff,
-  #f9e6ff,
-  #ffffff
-);
+    145deg,
+    #fff5f1 0%,       /* soft peach-beige */
+    #ffe9f0 30%,      /* lip/blush tone */
+    #e7f0f9 65%,      /* soft sky tint */
+    #ffffff 100%      /* bright clean white */
+  );
 background-size: 600% 600%;
   animation: shimmerGradient 20s ease-in-out infinite;
 }
