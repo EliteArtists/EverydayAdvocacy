@@ -332,3 +332,14 @@ body {
   border-right: none;
   padding-right: 0;
 }
+/* ✨ Subtle Shine + Texture Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+  opacity: 0.03;
+  z-index: 0;
+  pointer-events: none;
+}
