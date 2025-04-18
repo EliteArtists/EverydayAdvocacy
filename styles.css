@@ -309,13 +309,13 @@ section p {
 body {
   background: linear-gradient(
     145deg,
-    #f5ebdc 0%,     /* light cream */
-    #fbe7d1 80%,    /* soft peach */
-    #fdf6f0 40%,    /* gentle beige highlight */
-    #ffffff 100%    /* white */
+    #f5e4d1 0%,     /* soft cream peach */
+    #f3dbc2 40%,    /* light orange-beige */
+    #f8f5f0 80%,    /* soft eggshell white */
+    #ffffff 100%    /* pure white */
   );
   background-size: 600% 600%;
-  animation: shimmerGradient 20s ease-in-out infinite;
+  animation: shimmerGradient 10s ease-in-out infinite;
 }
 @keyframes shimmerGradient {
   0% {
