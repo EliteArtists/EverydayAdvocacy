@@ -90,6 +90,26 @@
     </ul>
   </div>
 </section>
+  <script>
+  const quotes = [
+    "“I’m here to help you reclaim your time — one task at a time.”",
+    "“Your time matters — I’m here to protect it.”",
+    "“Just think of me as your outsourced personal assistant.”",
+    "“I'll take the admin off your hands.”"
+  ];
+
+  let currentQuote = 0;
+  const quoteElement = document.querySelector('.quote-text');
+
+  setInterval(() => {
+    currentQuote = (currentQuote + 1) % quotes.length;
+    quoteElement.style.opacity = 0;
+    setTimeout(() => {
+      quoteElement.textContent = quotes[currentQuote];
+      quoteElement.style.opacity = 1;
+    }, 500);
+  }, 6000);
+</script>
 
   <!-- Call to Action Section -->
 
