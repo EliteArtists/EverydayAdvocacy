@@ -381,3 +381,33 @@ body::before {
   font-size: 1rem;
   color: #333333;
 }
+/* Quote Section Styles */
+.quote-section {
+  text-align: center;
+  position: relative;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 800px;
+  animation: fadeIn 2s ease-in;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #222;
+  opacity: 0;
+  animation: fadeCycle 18s infinite;
+}
+
+@keyframes fadeCycle {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  30% { opacity: 1; }
+  35% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
